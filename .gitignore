@@ -1,0 +1,32 @@
+# Ignore temp results
+/results/
+/downloads/
+/extracted/
+*.log
+*.tmp
+*.bak
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore PowerShell cache and history
+*.ps1xml
+*.psm1
+*.psd1
+*.swp
+*.swo
+
+# Ignore any zip archives or large accidental dumps
+*.zip
+*.7z
+*.tar.gz
+
+# Ignore secrets or creds file (if ever generated)
+creds.txt
+keys.txt
+.env
+
+# Ignore editor folders
+.vscode/
+.idea/
